@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="faqs"
+            type="cat.copernic.veterinaryapp.modelos.FAQS" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ViewFaqs" >
+
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_width="353dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="64dp"
+            android:text="Pregunta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resposta"
+            android:layout_width="346dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="24dp"
+            android:text="Resposta"
+            app:layout_constraintEnd_toEndOf="@+id/pregunta"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="@+id/pregunta"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta" />
+
+        <Button
+            android:id="@+id/butonGuardarBtnnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="112dp"
+            android:text="Guardar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resposta" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

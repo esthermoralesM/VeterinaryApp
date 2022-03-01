@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/vet_generardiagnostic"
+        android:title="@string/crearCita" />
+    <item
+        android:id="@+id/vet_modificarcita2"
+        android:title="@string/modCita" />
+    <item
+        android:id="@+id/vet_generardiag2"
+        android:title="@string/genDiagnostic" />
+    <item
+        android:id="@+id/idVeureVacunes"
+        android:title="@string/veureVacunes" />
+    <item android:title="@string/afegirVacuna" />
+</menu>

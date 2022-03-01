@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_admin"
+    app:startDestination="@id/home_f">
+
+    <fragment
+        android:id="@+id/home_f"
+        android:name="cat.copernic.veterinaryapp.administrador.home"
+        android:label="@string/nombre_home_admin"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_f_to_edit_perfil2"
+            app:destination="@id/edit_perfil" />
+        <action
+            android:id="@+id/action_home_f_to_crear_perfil"
+            app:destination="@id/crear_perfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/change"
+        android:name="cat.copernic.veterinaryapp.Change"
+        android:label="Canvia contrasenya"
+        tools:layout="@layout/fragment_change" />
+    <fragment
+        android:id="@+id/viewUser"
+        android:name="cat.copernic.veterinaryapp.ViewUser"
+        android:label="@string/MeuPerf"
+        tools:layout="@layout/fragment_view_user">
+        <action
+            android:id="@+id/action_viewUser_to_change"
+            app:destination="@id/change" />
+    </fragment>
+    <fragment
+        android:id="@+id/crear_perfil"
+        android:name="cat.copernic.veterinaryapp.administrador.crear_perfil"
+        android:label="@string/nouPerfil"
+        tools:layout="@layout/fragment_crear_perfil" />
+    <fragment
+        android:id="@+id/edit_perfil"
+        android:name="cat.copernic.veterinaryapp.administrador.edit_perfil"
+        android:label="@string/editUserView"
+        tools:layout="@layout/fragment_edit_perfil">
+        <argument
+            android:name="usuarioClave"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearLesFaqs"
+        android:name="cat.copernic.veterinaryapp.CrearLesFaqs"
+        android:label="@string/crear_faq"
+        tools:layout="@layout/fragment_crear_les_faqs" />
+</navigation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VeterinaryApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_hint_txt">email</string>
+    <string name="pass_hint_txt">Contrasenya</string>
+    <string name="button_login">Iniciar Sessió</string>
+    <string name="button_createAcc">Crear Compte</string>
+    <string name="email">Email</string>
+    <string name="contrasenya">Contrasenya</string>
+    <string name="contraConfirm">Confirmació contrasenya</string>
+    <string name="botoRegistre">Registrar-se</string>
+
+    <!--Main -->
+    <string name="msgBuit">"Omple el camp d'email."</string>
+
+    <!-- Menu Administrador -->
+    <string name="cerrar">Tancar sesió</string>
+    <string name="crear_faq">Crea FAQ</string>
+    <string name="MeuPerf">El meu perfil</string>
+    <string name="nouPerfil">Crear nou perfil</string>
+
+    <!-- Navegacion del administrador -->
+    <string name="nombre_home_admin">Usuaris</string>
+    <string name="title_activity_administrador">Administrador</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="btnPedirCita">Demanar cita</string>
+    <string name="veureCites">Veure Cites</string>
+    <string name="veureUsuari">Veure Usuari</string>
+    <string name="fqs">FQAS</string>
+    <string name="crearCita">Crear cita</string>
+    <string name="veureCita">Veure cita</string>
+    <string name="modCita">Modificar Cita</string>
+    <string name="crearDiagnostic">Crear Diagnòstic</string>
+    <string name="genDiagnostic">Generar Diagnòstic</string>
+    <string name="veureVacunes">Veure vacunes</string>
+    <string name="afegirVacuna">Afegir vacuna</string>
+    <string name="demanarCita">Demanar cita</string>
+    <string name="txt_usr_usr">Usuari</string>
+    <string name="txt_usr_newClau">Nova contrasenya</string>
+    <string name="txt_usr_verificarContrasenya">Verificar Contrasenya</string>
+    <string name="txt_usr_nom">Nom</string>
+    <string name="txt_usr_cognoms">Cognoms</string>
+    <string name="txt_usr_dni">DNI</string>
+    <string name="txt_usr_tlfn">Teléfon</string>
+    <string name="txt_usr_fechaNac">Data de naixement</string>
+    <string name="txt_usr_direcc">Adreça</string>
+    <string name="btn_chng_pass">Canviar Contrasenya</string>
+    <string name="txtBtn_save">Guardar</string>
+    <string name="hintNom">Nom</string>
+    <string name="hintUser">User</string>
+    <string name="hintCognoms">Cognoms</string>
+    <string name="hintDni">DNI</string>
+    <string name="hintTelefon">Telefon</string>
+    <string name="hintDataN">Data de naixement</string>
+    <string name="hintDireccio">Direcció</string>
+    <string name="fotoPerf">Fotografia de perfil</string>
+
+    <!-- Editar usuari (ambpermisos  d'administrador) -->
+    <string name="editUserView">Modificar perdil</string>
+    <string name="correo_elec">Correu electrònic</string>
+    <string name="clave_perfil">Contrasenya</string>
+    <string name="crearMascota">Crear mascota</string>
+
+
+    <string name="editMascotaChiptxt">Nº de chip</string>
+    <string name="editarMascotaTxtPeso">Pes</string>
+    <string name="labelEditMascotaRaza">Rassa</string>
+    <string name="editFechaNac" >Data de naixement</string>
+
+    <!-- Array per a Spinner de rol -->
+    <string-array name="rols">
+        <item>Client</item>
+        <item>Veterinari</item>
+        <item>Administrador</item>
+    </string-array>
+</resources>

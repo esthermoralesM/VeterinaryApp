@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_vet"
+    app:startDestination="@id/vet_vercitas">
+
+    <fragment
+        android:id="@+id/afegirVac"
+        android:name="cat.copernic.veterinaryapp.Fragment_AnadirVacunaVet"
+        android:label="fragment__anadir_vacuna_vet"
+        tools:layout="@layout/fragment__anadir_vacuna_vet" />
+    <fragment
+        android:id="@+id/idVeureVacunes"
+        android:name="cat.copernic.veterinaryapp.Fragment_VerVacunasVet"
+        android:label="fragment__ver_vacunas_vet"
+        tools:layout="@layout/fragment__ver_vacunas_vet" />
+    <fragment
+        android:id="@+id/vet_generardiag2"
+        android:name="cat.copernic.veterinaryapp.vet_generardiag"
+        android:label="@string/genDiagnostic"
+        tools:layout="@layout/fragment_vet_generardiag">
+        <argument
+            android:name="citaDiad"
+            app:argType="cat.copernic.veterinaryapp.Objects.Cita" />
+    </fragment>
+    <fragment
+        android:id="@+id/vet_generardiagnostic"
+        android:name="cat.copernic.veterinaryapp.vet_generardiagnosticos"
+        android:label="@string/crearCita"
+        tools:layout="@layout/fragment_vet_generarcita" />
+    <fragment
+        android:id="@+id/vet_modificarcita2"
+        android:name="cat.copernic.veterinaryapp.vet_modificarcita"
+        android:label="@string/modCita"
+        tools:layout="@layout/fragment_vet_modificarcita">
+        <action
+            android:id="@+id/action_vet_modificarcita2_to_vet_generardiag2"
+            app:destination="@id/vet_generardiag2" />
+        <argument
+            android:name="citaData"
+            app:argType="cat.copernic.veterinaryapp.Objects.Cita" />
+    </fragment>
+    <fragment
+        android:id="@+id/vet_vercitas"
+        android:name="cat.copernic.veterinaryapp.vet_vercitas"
+        android:label="@string/veureCites"
+        tools:layout="@layout/fragment_vet_vercitas">
+        <action
+            android:id="@+id/action_vet_vercitas_to_vet_generardiagnostic"
+            app:destination="@id/vet_generardiagnostic" />
+        <action
+            android:id="@+id/action_vet_vercitas_to_vet_modificarcita2"
+            app:destination="@id/vet_modificarcita2" />
+    </fragment>
+</navigation>

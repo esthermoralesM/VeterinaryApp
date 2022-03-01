@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854630622872",
+    "project_id": "veterinaryapp-8178b",
+    "storage_bucket": "veterinaryapp-8178b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854630622872:android:5c1630105c7017b77752ed",
+        "android_client_info": {
+          "package_name": "cat.copernic.veterinaryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854630622872-j1mj6bo10ctmucig4j0r5k8nb5jajn2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe_CMzyLIzeOpA3qxadjMO22kBntL_nGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854630622872-j1mj6bo10ctmucig4j0r5k8nb5jajn2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

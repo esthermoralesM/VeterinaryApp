@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VeterinaryApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_hint_txt">email</string>
+    <string name="pass_hint_txt">Contraseña</string>
+    <string name="button_login">Iniciar Sessión</string>
+    <string name="button_createAcc">Crear Cuenta</string>
+    <string name="email">Email</string>
+    <string name="contrasenya">Contraseña</string>
+    <string name="contraConfirm">Confirma contraseña</string>
+    <string name="botoRegistre">Registrarse</string>
+
+    <!--Main -->
+    <string name="msgBuit">"Rellena campo de email."</string>
+
+    <!-- Menu Administrador -->
+    <string name="cerrar">Cerrar sesión</string>
+    <string name="crear_faq">Crear FAQ</string>
+    <string name="MeuPerf">Mi perfil</string>
+    <string name="nouPerfil">Crear nuevo perfil</string>
+
+    <!-- Navegacion del administrador -->
+    <string name="nombre_home_admin">Usuarios</string>
+    <string name="title_activity_administrador">Administrador</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="btnPedirCita">Pedir cita</string>
+    <string name="veureCites">Ver citas</string>
+    <string name="veureUsuari">Ver usuario</string>
+    <string name="fqs">FQAS</string>
+    <string name="crearCita">Crear cita</string>
+    <string name="veureCita">Ver cita</string>
+    <string name="modCita">Modificar Cita</string>
+    <string name="crearDiagnostic">Crear Diagnostico</string>
+    <string name="genDiagnostic">Generar Diagnostico</string>
+    <string name="veureVacunes">Ver vacunas</string>
+    <string name="afegirVacuna">Añadir vacuna</string>
+    <string name="demanarCita">Pedir cita</string>
+    <string name="txt_usr_usr">Usuario</string>
+    <string name="txt_usr_newClau">Nueva contraseña</string>
+    <string name="txt_usr_verificarContrasenya">Verificar contraseña</string>
+    <string name="txt_usr_nom">Nombre</string>
+    <string name="txt_usr_cognoms">Apellidos</string>
+    <string name="txt_usr_dni">DNI</string>
+    <string name="txt_usr_tlfn">Telefono</string>
+    <string name="txt_usr_fechaNac">Fecha de nacimiento</string>
+    <string name="txt_usr_direcc">Dirección</string>
+    <string name="btn_chng_pass">Cambiar Contraseña</string>
+    <string name="txtBtn_save">Guardar</string>
+    <string name="hintNom">Nombre</string>
+    <string name="hintUser">Usuario</string>
+    <string name="hintCognoms">Apellidos</string>
+    <string name="hintDni">DNI</string>
+    <string name="hintTelefon">Telefono</string>
+    <string name="hintDataN">Fecha de nacimiento</string>
+    <string name="hintDireccio">Dirección</string>
+    <string name="fotoPerf">Foto de perfil</string>
+
+    <!-- Editar usuario (con merpisos de administrador) -->
+    <string name="editUserView">Editar perdil</string>
+    <string name="correo_elec">Correo electronico</string>
+    <string name="clave_perfil">Contraseña</string>
+    <string name="crearMascota">Crear mascota</string>
+
+
+    <string name="editMascotaChiptxt">Nº de chip</string>
+    <string name="editarMascotaTxtPeso">Peso</string>
+    <string name="labelEditMascotaRaza">Raza</string>
+    <string name="editFechaNac" >Fecha de nacimiento</string>
+
+    <!-- Array para el Spinner de roles lo mantengo en catalen porque las comprobacione estan en catalan -->
+    <string-array name="rols">
+        <item>Client</item>
+        <item>Veterinari</item>
+        <item>Administrador</item>
+    </string-array>
+</resources>
