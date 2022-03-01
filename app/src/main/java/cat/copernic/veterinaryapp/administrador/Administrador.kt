@@ -52,5 +52,4 @@ class Administrador : AppCompatActivity() {
             else -> false
         }
     }
-
 }
